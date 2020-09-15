@@ -1,0 +1,79 @@
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Box--overlay {
+  width: 448px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-color: #444d56;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+}
+.Box {
+  background-color: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+}
+details-dialog {
+  position: fixed;
+  margin: 10vh auto;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  max-height: 80vh;
+  max-width: 90vw;
+  width: 448px;
+}
+.Box--overlay .Box-header {
+  margin: 0;
+  border-width: 0 0 1px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.Box-header {
+  padding: 16px;
+  margin: -1px -1px 0;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.Box-btn-octicon.btn-octicon {
+  padding: 16px;
+  margin: -16px;
+  line-height: 1.5;
+}
+.Box-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.flash-full {
+  margin-top: -1px;
+  border-width: 1px 0;
+  border-radius: 0;
+}
+.Box-body:last-of-type {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.flash-warn {
+  background-color: #fffbdd;
+  border-color: rgba(176, 136, 0, 0.2);
+}
+.flash {
+  background-color: #dbedff;
+  border-color: rgba(4, 66, 137, 0.2);
+}
+.flash {
+  position: relative;
+  padding: 20px 16px;
+  color: #24292e;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+}
